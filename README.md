@@ -23,6 +23,7 @@ Run every script from the repository root with `python -m ...`.
 | `physics/two_layer.py` | Two-layer model f(t, T), exact Jacobian, heat-flux profiles |
 | `studies/verification.py` | Checks against an exact solution, energy conservation, and radiative equilibrium |
 | `studies/convergence.py` | Convergence rate and time-step selection |
+| `studies/nonlinear_effects.py` | Research Question 3: runs with radiation off and with constant properties |
 | `figures/` | All figures used in the report |
 
 ## Reproducing the figures
@@ -34,3 +35,4 @@ Run every script from the repository root with `python -m ...`.
 | `python -m physics.two_layer` | Model self-test (Jacobian, energy identity; no figure) |
 | `python -m studies.verification` | `figures/verification.png` |
 | `python -m studies.convergence` | `figures/convergence.png` |
+| `python -m studies.nonlinear_effects` | `figures/nonlinear_effects.png` (and the RQ3 table values) |
